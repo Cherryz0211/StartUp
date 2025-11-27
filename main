@@ -1,0 +1,17 @@
+def calculator():
+    print("Simple Calculator")
+    print("Operations: +  -  *  /")
+
+    # Get user input
+    num1 = float(input("Enter first number: "))
+
+    num2 = float(input("Enter second number: "))
+
+    # Calculate based on operation
+    result = num1 + num2
+
+    return f"Result: {result}"
+
+
+# Run the calculator
+print(calculator())
